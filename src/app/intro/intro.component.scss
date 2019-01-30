@@ -1,0 +1,115 @@
+/* ---------------------------------
+ INTRO SECTION
+--------------------------------- */
+
+.intro-section {
+    padding: 50px 0;
+    position: relative;
+    background-size: cover;
+    z-index: 1;
+    background-image: url(/images/slider-3-1920x1080.jpg);
+  }
+  
+  .intro-section:before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  
+  /* HEADER */
+  
+  .intro-section .heading-wrapper {
+    border-radius: 5px;
+    padding: 30px 40px 20px;
+    margin-bottom: 50px;
+    background: #ffad01;
+    color: #fff;
+  }
+  
+  .intro-section .info {
+    margin-bottom: 10px;
+  }
+  
+  .intro-section .info .icon {
+    float: left;
+    font-size: 30px;
+  }
+  
+  .intro-section .info .right-area {
+    margin-left: 45px;
+  }
+  
+  /* INTRO */
+  
+  .intro {
+    color: #fff;
+  }
+  
+  .intro .profile-img {
+    max-width: 400px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .intro .information > li {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .intro .social-icons > li > a {
+    height: 35px;
+    line-height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    margin: 0 5px 5px;
+    text-align: center;
+    background: #887392;
+    color: #fff;
+  }
+  
+  .intro .social-icons > li > a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 20px;
+    background: #ffa804;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  
+  .intro .social-icons > li > a:hover:after {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  .intro .downlad-btn {
+    padding: 15px 30px;
+    border-radius: 4px;
+    float: right;
+    margin-top: 30px;
+    box-shadow: inset 0 0px 4px rgba(0, 0, 0, 0.3);
+    background: #ffad01;
+    color: #fff;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  
+  .intro .downlad-btn:hover {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  
