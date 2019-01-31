@@ -29,7 +29,16 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/common-js/jquery-3.2.1.min.js",
+              "src/assets/common-js/tether.min.js",
+              "src/assets/common-js/bootstrap.js",
+              "src/assets/common-js/isotope.pkgd.min.js",
+              "src/assets/common-js/jquery.waypoints.min.js",
+              "src/assets/common-js/progressbar.min.js",
+              "src/assets/common-js/jquery.fluidbox.min.js",
+              "src/assets/common-js/scripts.js"
+            ]
           },
           "configurations": {
             "production": {
