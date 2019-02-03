@@ -1,24 +1,7 @@
-/*
-
-	TOC
-	
-	1. PRIMARY STYLES
-	2. COMMONS FOR PAGE DESIGN
-	3. INTRO SECTION
-		HEADER 
-		INTRO 
-	4. ABOUT SECTION
-	5. EXPERIENCE SECTION
-	6. PORFOLIO SECTION
-	7. EDUCATION SECTION
-	8. FOOTER
-	9. Responsiveness styles
-
-====================================================
 
 
 /* ---------------------------------
-1. PRIMARY STYLES
+PRIMARY STYLES
 --------------------------------- */
 
 html {
@@ -124,7 +107,7 @@ html {
   button:hover,
   a b.light-color:hover {
     text-decoration: none;
-    color: #ffa804;
+    color: green;
   }
   
   b {
@@ -186,7 +169,7 @@ html {
     border-radius: 5px;
     margin-bottom: 20px;
     display: block;
-    background: #ffa804;
+    background: green;
   }
   
   .margin-t-10 {
@@ -206,7 +189,7 @@ html {
   }
   
   .font-yellow {
-    color: #ffa600;
+    color: green;
   }
   
   .font-semi-white {
@@ -276,7 +259,7 @@ html {
   }
 
   /* ---------------------------------
-	3. INTRO SECTION
+  INTRO SECTION
 	--------------------------------- */
 
   /* INTRO */
@@ -286,7 +269,7 @@ html {
   }
 
   /* ---------------------------------
-	6. PORFOLIO SECTION
+	PORFOLIO SECTION
 	--------------------------------- */
 
   .portfolio-section .portfolioFilter {
@@ -303,7 +286,7 @@ html {
 -------------------------------------------------------------------------- */
 @media only screen and (max-width: 575px) {
   /* ---------------------------------
-	1. PRIMARY STYLES
+	 PRIMARY STYLES
 	--------------------------------- */
 
   body {
@@ -311,7 +294,7 @@ html {
   }
 
   /* ---------------------------------
-	6. PORFOLIO SECTION
+	 PORFOLIO SECTION
 	--------------------------------- */
 
   .portfolio-section .p-item {
