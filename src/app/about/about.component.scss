@@ -2,32 +2,212 @@
  ABOUT SECTION
 --------------------------------- */
 
-.radial-progress {
-    position: relative;
-    max-width: 200px;
-    margin: 0 auto;
-  }
+
+.customwidget h1 {
+  font-size: 44px;
+  color: #ffffff;
+  padding: 15px 0 25px;
+  margin: 0;
+  line-height: 1 !important;
+  font-weight: 500;
+}
+.about-heading{
+  text-align: center;
+}
+.about-heading:after {
+  content: '';
+  height: 10px;
+  width: 50px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  background: green;
   
-  .radial-progress .progressbar-text {
-    font-size: 2.2em;
-    font-weight: 500;
-    padding-bottom: 25px !important;
-    color: #333 !important;
-  }
-  
-  .radial-progress .progressbar-text:after {
-    content: '%';
-  }
-  
-  .radial-progress .progress-title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    letter-spacing: 0;
-    text-align: center;
-    transform: translate(-50%, 15px);
-    color: #777;
-  }
+}
+
+.customwidget ul {
+  padding: 0;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.customwidget li i {
+  margin-right: 5px;
+color: green;
+}
+
+.customwidget li {
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.image-center img {
+  position: relative;
+  margin: 0px;
+  z-index: 10;
+  padding-right: 30px;
+  text-align: center;
+}
+
+.customwidget p {
+  font-style: italic;
+  font-size: 14px;
+  padding: 0 0 10px;
+}
+
+.customwidget a span {
+  position: relative;
+  z-index: 3;
+}
+.customwidget a.btn11::before {
+  z-index: 2;
+}
+.customwidget a.btn11::after {
+  z-index: 1;
+  background: #ffffff;
+}
+
+.customwidget a.btn11 {
+  top: 10px;
+  margin: 0px;
+}
+.customwidget a.btn11:hover {
+  color: #ffffff !important;
+}
+
+.img-center img {
+  width: 100%;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
+}
+
+.img-center {
+  margin: auto;
+}
+
+#features li p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#features li {
+  display: table;
+  width: 100%;
+  margin: 20px 0;
+  cursor: pointer;
+padding: 10px;
+-webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+background: #393939;
+border-radius: 10px;
+transition: all 1s ease-in-out;
+}
+
+#features li:hover {
+transform: scale(1.07);
+transition: all 1s ease-in-out;
+z-index: 1000;
+}
+
+.features-left,
+.features-right {
+  padding: 0 10px;
+}
+
+.features-right li:last-child,
+.features-left li:last-child {
+  margin-bottom: 0px;
+  padding-bottom: 0 !important;
+}
+
+.features-right li i,
+.features-left li i {
+  width: 68px;
+  height: 68px;
+  line-height: 68px;
+  display: table;
+  border-radius: 10px;
+  font-size: 26px;
+color: #ffffff;
+  background-color: green;
+  margin: 0 auto 22px;
+  position: relative;
+  text-align: center;
+  z-index: 55;
+  transition: .4s;
+  padding: 0;
+}
+
+.features-right li i:hover,
+.features-left li i:hover {
+background: #201e21;
+}
+
+#features i img {
+  display: table;
+  margin: 0 auto;
+}
+
+.features-left li i:before,
+.features-right li i:before {
+  text-align: center;
+}
+
+.features-right li i .ico-current,
+.features-left li i .ico-current {
+  opacity: 1;
+  transition: .4s;
+  visibility: visible;
+}
+
+.features-right li i .ico-hover,
+.features-left li i .ico-hover {
+  opacity: 0;
+  transition: .4s;
+  visibility: hidden;
+  top: 19px;
+}
+
+.features-right li:hover .ico-current,
+.features-left li:hover .ico-current {
+  opacity: 0;
+  transition: .4s;
+  visibility: hidden;
+}
+
+.features-right li:hover .ico-hover,
+.features-left li:hover .ico-hover {
+  opacity: 1;
+  transition: .4s;
+  visibility: visible;
+}
+
+.features-right i {
+  float: right;
+}
+
+.fr-inner {
+  margin-right: 90px;
+}
+
+.features-left i {
+  float: left;
+}
+
+.fl-inner {
+  text-align: left;
+  margin-left: 90px;
+}
+
+#features h4 {
+  text-transform: capitalize;
+  margin: 0;
+  font-size: 19px;
+color: #ffffff;
+}
+
+
+
   
   

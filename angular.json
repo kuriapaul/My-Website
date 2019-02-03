@@ -27,7 +27,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/common-css/animate.css",
+              "src/assets/common-css/flaticon.css",
+              "src/assets/common-css/icomoon.css",
+              "src/assets/common-css/prettyPhoto.css",
+              "src/assets/common-css/owl.carousel.css"
+              
             ],
             "scripts": [
               "src/assets/common-js/jquery-3.2.1.min.js",
