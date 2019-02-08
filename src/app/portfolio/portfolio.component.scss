@@ -26,9 +26,13 @@
   
   .portfolio-section .p-item {
     width: 32%;
-  
     padding: 0 7.5px 0px;
     margin-top: 15px;
+  }
+
+  .portfolio-section .p-item a:hover{
+    
+    opacity: 0.3;
   }
   
   .portfolio-section .p-item a {
